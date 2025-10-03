@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+@theme {
+    --color-background: light-dark(#ffffff, #09090b);
+    --color-foreground: light-dark(#09090b, #fafafa);
+    --color-primary: light-dark(#18181b, #fafafa);
+    --color-primary-foreground: light-dark(#fafafa, #18181b);
+    --color-secondary: light-dark(#f4f4f5, #27272a);
+    --color-secondary-foreground: light-dark(#18181b, #fafafa);
+    --color-muted: light-dark(#f4f4f5, #27272a);
+    --color-muted-foreground: light-dark(#71717a, #a1a1aa);
+    --color-border: light-dark(#e4e4e7, #27272a);
+    --radius: 0.5rem;
+}
